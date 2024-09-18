@@ -1,0 +1,25 @@
+/* 全体のレイアウトをリセット */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ヘッダー部分のスタイル */
+.header {
+    background-color: #4CAF50; /* 背景色 */
+    color: white; /* テキストの色 */
+    padding: 15px; /* 内側の余白 */
+    text-align: center; /* テキストを中央揃え */
+    position: fixed; /* 固定位置 */
+    top: 0; /* 画面の上部 */
+    left: 0;
+    width: 100%; /* 幅を全体に広げる */
+    z-index: 1000; /* 他の要素より前面に表示 */
+}
+
+/* コンテンツ部分のスタイル */
+.content {
+    margin-top: 80px; /* ヘッダー分だけ余白を追加 */
+    padding: 20px;
+}
